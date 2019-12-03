@@ -1,0 +1,74 @@
+read_file -format sverilog {./SPI_mstr.sv\
+							./A2D_intf.sv\
+							./slide_intf.sv\
+							./band_scale.v\
+							./dualPort1536x16.v\
+							./dualPort1024x16.v\
+							./ROM_LP.v\
+							./ROM_B1.v\
+							./ROM_B2.v\
+							./ROM_B3.v\
+							./ROM_HP.v\
+							./FIR_LP.sv\
+							./FIR_B1.sv\
+							./FIR_B2.sv\
+							./FIR_B3.sv\
+							./FIR_HP.sv\
+							./I2S_Slave.sv\
+							./PDM.sv\
+							./spkr_drv.sv\
+							./UART.sv\
+							./cmdROM.v\
+							./snd_cmd.sv\
+							./BT_intf.sv\
+							./PB_rise.sv\
+							./low_freq_queue.sv\
+							./high_freq_queue.sv\
+							./EQ_engine.sv\
+							./rst_synch.sv\
+							./Equalizer.v}
+
+set current_design Equalizer
+
+#Create a clock variable with frequency 400MHz
+create_clock -name "clk" -period 0.25 -waveform {0 1} {clk}
+set_dont_touch_network [find port clk]
+
+#Set input delay of 0.75ns
+set prim_inputs [remove_from_collection [all_inputs] [find port clk] ]
+set_input_delay -clock clk 0.75 $prim_inputs
+
+#Set dont touch of "black box" verilog files
+set_dont_touch [find design dualPort*]
+set_dont_touch [find design ROM_*]
+set_dont_touch [find design cmdROM]
+
+#Set Drive strength of inputs
+set_driving_cell -lib_cell ND2D2BWP -from_pin A1 -library\
+ tcbn40lpbwptc $prim_inputs
+ 
+#Set output delay of 0.75ns
+set_output_delay -clock clk 0.75 [all_outputs]
+
+#Set output load o f0.1pF
+set_load 0.1 [all_outputs]
+
+#Set wireload model
+set_wire_load_model -name TSMC32K_Lowk_Conservative -library tcbn401pbwptc
+
+#Set max transition time of 0.1ns
+set_max_transition 0.1 [current_design]
+
+#Set clock ucertainty of 0.12ns
+set_clock_uncertainty 0.12 clk
+
+#compile the synthesis
+compile -map_effort medium
+
+ungroup -all -flatten
+
+compile -map_effort medium 
+
+report_area > Equalizer.txt
+
+write -format verilog Equalizer -output Equalizer.vg

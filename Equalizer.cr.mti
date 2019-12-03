@@ -1,0 +1,267 @@
+{//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/RN52.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/RN52.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module RN52
+
+Top level modules:
+	RN52
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/cmdROM.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/cmdROM.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cmdROM
+
+Top level modules:
+	cmdROM
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/Equalizer.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/Equalizer.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module Equalizer
+
+Top level modules:
+	Equalizer
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/snd_cmd.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/snd_cmd.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module snd_cmd
+
+Top level modules:
+	snd_cmd
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_HP.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_HP.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module FIR_HP
+
+Top level modules:
+	FIR_HP
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/SPI_ADC128S.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/SPI_ADC128S.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SPI_ADC128S
+
+Top level modules:
+	SPI_ADC128S
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/slide_intf.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/slide_intf.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module slide_intf
+
+Top level modules:
+	slide_intf
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/PDM.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/PDM.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PDM
+
+Top level modules:
+	PDM
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/I2S_Master.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/I2S_Master.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module I2S_Master
+
+Top level modules:
+	I2S_Master
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/spkr_drv.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/spkr_drv.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module spkr_drv
+
+Top level modules:
+	spkr_drv
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_B1.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_B1.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module FIR_B1
+
+Top level modules:
+	FIR_B1
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/PB_rise.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/PB_rise.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PB_rise
+
+Top level modules:
+	PB_rise
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_LP.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_LP.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module FIR_LP
+
+Top level modules:
+	FIR_LP
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_B1.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_B1.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ROM_B1
+
+Top level modules:
+	ROM_B1
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_B3.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_B3.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module FIR_B3
+
+Top level modules:
+	FIR_B3
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/slide_intf_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/slide_intf_tb.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module slide_intf_tb
+
+Top level modules:
+	slide_intf_tb
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_B2.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_B2.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ROM_B2
+
+Top level modules:
+	ROM_B2
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ADC128S.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ADC128S.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ADC128S
+
+Top level modules:
+	ADC128S
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/BT_intf.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/BT_intf.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module BT_intf
+
+Top level modules:
+	BT_intf
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/dualPort1024x16.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/dualPort1024x16.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module dualPort1024x16
+
+Top level modules:
+	dualPort1024x16
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/dualPort1536x16.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/dualPort1536x16.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module dualPort1536x16
+
+Top level modules:
+	dualPort1536x16
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_B3.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_B3.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ROM_B3
+
+Top level modules:
+	ROM_B3
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/A2D_intf.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/A2D_intf.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module A2D_intf
+
+Top level modules:
+	A2D_intf
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/A2D_with_Pots.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/A2D_with_Pots.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module A2D_with_Pots
+
+Top level modules:
+	A2D_with_Pots
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/Equalizer_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/Equalizer_tb.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module Equalizer_tb
+
+Top level modules:
+	Equalizer_tb
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/I2S_Slave.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/I2S_Slave.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module I2S_Slave
+
+Top level modules:
+	I2S_Slave
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/band_scale.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/band_scale.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module band_scale
+
+Top level modules:
+	band_scale
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/SPI_mstr.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/SPI_mstr.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SPI_mstr
+
+Top level modules:
+	SPI_mstr
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/high_freq_queue.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/high_freq_queue.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module high_freq_queue
+
+Top level modules:
+	high_freq_queue
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_HP.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_HP.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ROM_HP
+
+Top level modules:
+	ROM_HP
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/low_freq_queue.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/low_freq_queue.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module low_freq_queue
+
+Top level modules:
+	low_freq_queue
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/tone_ROM_rght.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/tone_ROM_rght.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module tone_ROM_rght
+
+Top level modules:
+	tone_ROM_rght
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/resp_ROM.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/resp_ROM.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module resp_ROM
+
+Top level modules:
+	resp_ROM
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_B2.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/FIR_B2.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module FIR_B2
+
+Top level modules:
+	FIR_B2
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/UART.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/UART.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/tone_ROM_lft.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/tone_ROM_lft.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module tone_ROM_lft
+
+Top level modules:
+	tone_ROM_lft
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/rst_synch.sv} {1 {vlog -work work -vopt -sv -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/rst_synch.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module rst_synch
+
+Top level modules:
+	rst_synch
+
+} {} {}} {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_LP.v} {1 {vlog -work work -vopt -stats=none {//userspace.cae.wisc.edu/people/j/jkeyser/FooFoo/Equalizer new/ROM_LP.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ROM_LP
+
+Top level modules:
+	ROM_LP
+
+} {} {}}
